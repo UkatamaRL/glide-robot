@@ -1,0 +1,168 @@
+[0.009s] Invoking command in '/home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/gazebo_ros2_control -DCMAKE_INSTALL_PREFIX=/home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control
+[0.046s] -- The C compiler identification is GNU 9.3.0
+[0.083s] -- The CXX compiler identification is GNU 9.3.0
+[0.086s] -- Check for working C compiler: /usr/bin/cc
+[0.136s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.137s] -- Detecting C compiler ABI info
+[0.196s] -- Detecting C compiler ABI info - done
+[0.205s] -- Detecting C compile features
+[0.205s] -- Detecting C compile features - done
+[0.207s] -- Check for working CXX compiler: /usr/bin/c++
+[0.263s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.264s] -- Detecting CXX compiler ABI info
+[0.346s] -- Detecting CXX compiler ABI info - done
+[0.364s] -- Detecting CXX compile features
+[0.365s] -- Detecting CXX compile features - done
+[0.368s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.402s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.402s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.567s] -- Found angles: 1.12.3 (/opt/ros/foxy/share/angles/cmake)
+[0.568s] -- Found controller_manager: 0.8.1 (/opt/ros/foxy/share/controller_manager/cmake)
+[0.597s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.602s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.652s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.673s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.730s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.153s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.154s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.155s] -- Looking for pthread.h
+[1.203s] -- Looking for pthread.h - found
+[1.203s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.254s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.254s] -- Looking for pthread_create in pthreads
+[1.296s] -- Looking for pthread_create in pthreads - not found
+[1.296s] -- Looking for pthread_create in pthread
+[1.354s] -- Looking for pthread_create in pthread - found
+[1.354s] -- Found Threads: TRUE  
+[1.609s] -- Found gazebo_dev: 3.5.3 (/opt/ros/foxy/share/gazebo_dev/cmake)
+[1.612s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[1.614s] -- Checking for module 'bullet>=2.82'
+[1.623s] --   Found bullet, version 2.88
+[1.698s] -- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+[1.733s] -- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") 
+[1.769s] -- Found assimp: /usr/include (found version "5.0.0") 
+[1.785s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.804s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.816s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[1.819s] -- Looking for ignition-math6 -- found version 6.9.2
+[1.823s] -- Searching for dependencies of ignition-math6
+[1.825s] -- Looking for OGRE...
+[1.825s] -- OGRE_PREFIX_WATCH changed.
+[1.829s] -- Checking for module 'OGRE'
+[1.838s] --   Found OGRE, version 1.9.0
+[1.862s] -- Found Ogre Ghadamon (1.9.0)
+[1.868s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.875s] -- Looking for OGRE_Paging...
+[1.880s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.880s] -- Looking for OGRE_Terrain...
+[1.885s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.885s] -- Looking for OGRE_Property...
+[1.890s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.890s] -- Looking for OGRE_RTShaderSystem...
+[1.894s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.895s] -- Looking for OGRE_Volume...
+[1.899s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.899s] -- Looking for OGRE_Overlay...
+[1.904s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.998s] -- Looking for ignition-math6 -- found version 6.9.2
+[1.999s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.999s] -- Searching for dependencies of ignition-transport8
+[2.012s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[2.020s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[2.023s] -- Checking for module 'libzmq >= 4'
+[2.034s] --   Found libzmq , version 4.3.2
+[2.059s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[2.063s] -- Checking for module 'uuid'
+[2.072s] --   Found uuid, version 2.34.0
+[2.097s] -- Found UUID: TRUE  
+[2.098s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.098s] -- Searching for dependencies of ignition-msgs5
+[2.112s] -- Looking for ignition-math6 -- found version 6.9.2
+[2.115s] -- Checking for module 'tinyxml2'
+[2.125s] --   Found tinyxml2, version 6.2.0
+[2.150s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.151s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.152s] -- Searching for dependencies of ignition-common3
+[2.152s] -- Looking for dlfcn.h - found
+[2.153s] -- Looking for libdl - found
+[2.154s] -- Found DL: TRUE  
+[2.158s] -- Searching for <ignition-common3> component [graphics]
+[2.159s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[2.160s] -- Searching for dependencies of ignition-common3-graphics
+[2.160s] -- Looking for ignition-math6 -- found version 6.9.2
+[2.162s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[2.162s] -- Searching for dependencies of ignition-fuel_tools4
+[2.208s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+[2.214s] -- Checking for module 'jsoncpp'
+[2.223s] --   Found jsoncpp, version 1.7.4
+[2.248s] -- Found JSONCPP: TRUE  
+[2.251s] -- Checking for module 'libzip'
+[2.261s] --   Found libzip, version 1.5.1
+[2.299s] -- Found ZIP: TRUE  
+[2.300s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.301s] -- Looking for ignition-math6 -- found version 6.9.2
+[2.301s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.303s] -- Gazebo version: 11.9
+[2.306s] -- Found gazebo_ros: 3.5.3 (/opt/ros/foxy/share/gazebo_ros/cmake)
+[2.324s] -- Found urdf: 2.4.0 (/opt/ros/foxy/share/urdf/cmake)
+[2.347s] -- Found yaml_cpp_vendor: 7.0.2 (/opt/ros/foxy/share/yaml_cpp_vendor/cmake)
+[2.347s] -- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[2.496s] -- Found ament_cmake_gtest: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[2.497s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.551s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.552s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.553s] -- Configured cppcheck include dirs: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/gazebo_ros2_control/include
+[2.553s] -- Configured cppcheck exclude dirs and/or files: 
+[2.553s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.553s] -- Configured cpplint exclude dirs and/or files: 
+[2.554s] -- Added test 'lint_cmake' to check CMake code style
+[2.555s] -- Added test 'uncrustify' to check C / C++ code style
+[2.555s] -- Configured uncrustify additional arguments: 
+[2.555s] -- Added test 'xmllint' to check XML markup files
+[2.558s] -- Configuring done
+[2.601s] -- Generating done
+[2.603s] -- Build files have been written to: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/build/gazebo_ros2_control
+[2.611s] Invoked command in '/home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/gazebo_ros2_control -DCMAKE_INSTALL_PREFIX=/home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control
+[2.614s] Invoking command in '/home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/build/gazebo_ros2_control -- -j8 -l8
+[2.643s] [35m[1mScanning dependencies of target gazebo_ros2_control[0m
+[2.643s] [35m[1mScanning dependencies of target gazebo_hardware_plugins[0m
+[2.732s] [ 25%] [32mBuilding CXX object CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o[0m
+[2.745s] [ 50%] [32mBuilding CXX object CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o[0m
+[10.613s] [ 75%] [32m[1mLinking CXX shared library libgazebo_hardware_plugins.so[0m
+[10.966s] [ 75%] Built target gazebo_hardware_plugins
+[11.968s] [100%] [32m[1mLinking CXX shared library libgazebo_ros2_control.so[0m
+[12.380s] [100%] Built target gazebo_ros2_control
+[12.387s] Invoked command in '/home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/build/gazebo_ros2_control -- -j8 -l8
+[12.414s] Invoking command in '/home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/build/gazebo_ros2_control
+[12.420s] -- Install configuration: ""
+[12.420s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control/lib/libgazebo_ros2_control.so
+[12.422s] -- Set runtime path of "/home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control/lib/libgazebo_ros2_control.so" to ""
+[12.422s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control/lib/libgazebo_hardware_plugins.so
+[12.424s] -- Set runtime path of "/home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control/lib/libgazebo_hardware_plugins.so" to ""
+[12.424s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.sh
+[12.425s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.dsv
+[12.425s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control/include/gazebo_ros2_control
+[12.425s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp
+[12.425s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system.hpp
+[12.425s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_ros2_control_plugin.hpp
+[12.425s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control/share/gazebo_ros2_control/gazebo_hardware_plugins.xml
+[12.425s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control/share/ament_index/resource_index/package_run_dependencies/gazebo_ros2_control
+[12.425s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control/share/ament_index/resource_index/parent_prefix_path/gazebo_ros2_control
+[12.425s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.sh
+[12.425s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.dsv
+[12.425s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.sh
+[12.426s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.dsv
+[12.426s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.bash
+[12.426s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.sh
+[12.426s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.zsh
+[12.426s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.dsv
+[12.426s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control/share/gazebo_ros2_control/package.dsv
+[12.426s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control/share/ament_index/resource_index/packages/gazebo_ros2_control
+[12.426s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control/share/ament_index/resource_index/gazebo_ros2_control__pluginlib__plugin/gazebo_ros2_control
+[12.426s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.426s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.426s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_libraries-extras.cmake
+[12.427s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig.cmake
+[12.427s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig-version.cmake
+[12.427s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control/share/gazebo_ros2_control/package.xml
+[12.429s] Invoked command in '/home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/build/gazebo_ros2_control

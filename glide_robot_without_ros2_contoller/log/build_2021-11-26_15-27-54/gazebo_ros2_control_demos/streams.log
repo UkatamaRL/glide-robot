@@ -1,0 +1,101 @@
+[0.007s] Invoking command in '/home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/build/gazebo_ros2_control_demos': CMAKE_PREFIX_PATH=/home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control:/home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control_demos:/home/nagase/ROS/ros2_controller_gazebo/glide_robot_ros2_controller/install/gazebo_ros2_control_demos:/home/nagase/ROS/ros2_controller_gazebo/glide_robot_ros2_controller/install/gazebo_ros2_control:/home/nagase/ROS/ros2_controller_gazebo/install/gazebo_ros2_control_demos:/home/nagase/ROS/ros2_controller_gazebo/install/gazebo_ros2_control:/opt/ros/foxy /usr/bin/cmake /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/gazebo_ros2_control_demos -DCMAKE_INSTALL_PREFIX=/home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control_demos
+[0.051s] -- The C compiler identification is GNU 9.3.0
+[0.095s] -- The CXX compiler identification is GNU 9.3.0
+[0.099s] -- Check for working C compiler: /usr/bin/cc
+[0.160s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.162s] -- Detecting C compiler ABI info
+[0.283s] -- Detecting C compiler ABI info - done
+[0.292s] -- Detecting C compile features
+[0.292s] -- Detecting C compile features - done
+[0.294s] -- Check for working CXX compiler: /usr/bin/c++
+[0.364s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.365s] -- Detecting CXX compiler ABI info
+[0.431s] -- Detecting CXX compiler ABI info - done
+[0.443s] -- Detecting CXX compile features
+[0.444s] -- Detecting CXX compile features - done
+[0.446s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.463s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.464s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.605s] -- Found control_msgs: 2.5.1 (/opt/ros/foxy/share/control_msgs/cmake)
+[0.628s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.633s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.683s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.705s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.761s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.097s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.130s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.132s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.132s] -- Looking for pthread.h
+[1.180s] -- Looking for pthread.h - found
+[1.180s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.230s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.230s] -- Looking for pthread_create in pthreads
+[1.283s] -- Looking for pthread_create in pthreads - not found
+[1.283s] -- Looking for pthread_create in pthread
+[1.356s] -- Looking for pthread_create in pthread - found
+[1.357s] -- Found Threads: TRUE  
+[1.464s] -- Found rclcpp_action: 2.4.0 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[1.489s] -- Found ament_cmake_gtest: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[1.491s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.543s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.545s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.546s] -- Added test 'lint_cmake' to check CMake code style
+[1.546s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.547s] -- Added test 'xmllint' to check XML markup files
+[1.550s] -- Configuring done
+[1.551s] -- Generating done
+[1.552s] -- Build files have been written to: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/build/gazebo_ros2_control_demos
+[1.559s] Invoked command in '/home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/build/gazebo_ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=/home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control:/home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control_demos:/home/nagase/ROS/ros2_controller_gazebo/glide_robot_ros2_controller/install/gazebo_ros2_control_demos:/home/nagase/ROS/ros2_controller_gazebo/glide_robot_ros2_controller/install/gazebo_ros2_control:/home/nagase/ROS/ros2_controller_gazebo/install/gazebo_ros2_control_demos:/home/nagase/ROS/ros2_controller_gazebo/install/gazebo_ros2_control:/opt/ros/foxy /usr/bin/cmake /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/gazebo_ros2_control_demos -DCMAKE_INSTALL_PREFIX=/home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control_demos
+[1.560s] Invoking command in '/home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/build/gazebo_ros2_control_demos': CMAKE_PREFIX_PATH=/home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control:/home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control_demos:/home/nagase/ROS/ros2_controller_gazebo/glide_robot_ros2_controller/install/gazebo_ros2_control_demos:/home/nagase/ROS/ros2_controller_gazebo/glide_robot_ros2_controller/install/gazebo_ros2_control:/home/nagase/ROS/ros2_controller_gazebo/install/gazebo_ros2_control_demos:/home/nagase/ROS/ros2_controller_gazebo/install/gazebo_ros2_control:/opt/ros/foxy /usr/bin/cmake --build /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/build/gazebo_ros2_control_demos -- -j8 -l8
+[1.588s] Invoked command in '/home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/build/gazebo_ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=/home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control:/home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control_demos:/home/nagase/ROS/ros2_controller_gazebo/glide_robot_ros2_controller/install/gazebo_ros2_control_demos:/home/nagase/ROS/ros2_controller_gazebo/glide_robot_ros2_controller/install/gazebo_ros2_control:/home/nagase/ROS/ros2_controller_gazebo/install/gazebo_ros2_control_demos:/home/nagase/ROS/ros2_controller_gazebo/install/gazebo_ros2_control:/opt/ros/foxy /usr/bin/cmake --build /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/build/gazebo_ros2_control_demos -- -j8 -l8
+[1.603s] Invoking command in '/home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/build/gazebo_ros2_control_demos': CMAKE_PREFIX_PATH=/home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control:/home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control_demos:/home/nagase/ROS/ros2_controller_gazebo/glide_robot_ros2_controller/install/gazebo_ros2_control_demos:/home/nagase/ROS/ros2_controller_gazebo/glide_robot_ros2_controller/install/gazebo_ros2_control:/home/nagase/ROS/ros2_controller_gazebo/install/gazebo_ros2_control_demos:/home/nagase/ROS/ros2_controller_gazebo/install/gazebo_ros2_control:/opt/ros/foxy /usr/bin/cmake --install /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/build/gazebo_ros2_control_demos
+[1.609s] -- Install configuration: ""
+[1.609s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch
+[1.609s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/glide_robot.launch.py
+[1.610s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config
+[1.610s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/test.yaml
+[1.610s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf
+[1.610s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/log
+[1.610s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/log/build_2021-11-17_18-47-18
+[1.610s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/log/build_2021-11-17_18-47-18/logger_all.log
+[1.610s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/log/build_2021-11-17_18-47-18/events.log
+[1.610s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/log/COLCON_IGNORE
+[1.610s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/log/latest_build
+[1.610s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/log/latest_build/logger_all.log
+[1.611s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/log/latest_build/events.log
+[1.611s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/log/latest
+[1.611s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/log/latest/logger_all.log
+[1.611s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/log/latest/events.log
+[1.611s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/build
+[1.611s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/build/COLCON_IGNORE
+[1.611s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/build/.built_by
+[1.611s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/glide_robot.xacro.urdf
+[1.611s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/install
+[1.611s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/install/local_setup.bash
+[1.611s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/install/local_setup.sh
+[1.611s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/install/setup.bash
+[1.612s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/install/setup.ps1
+[1.612s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/install/_local_setup_util_ps1.py
+[1.612s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/install/.colcon_install_layout
+[1.612s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/install/local_setup.zsh
+[1.612s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/install/setup.sh
+[1.612s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/install/setup.zsh
+[1.612s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/install/_local_setup_util_sh.py
+[1.612s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/install/COLCON_IGNORE
+[1.612s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/install/local_setup.ps1
+[1.612s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control_demos/share/ament_index/resource_index/package_run_dependencies/gazebo_ros2_control_demos
+[1.612s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control_demos/share/ament_index/resource_index/parent_prefix_path/gazebo_ros2_control_demos
+[1.612s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/ament_prefix_path.sh
+[1.612s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/ament_prefix_path.dsv
+[1.613s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/path.sh
+[1.613s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/path.dsv
+[1.613s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.bash
+[1.613s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.sh
+[1.613s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.zsh
+[1.613s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.dsv
+[1.613s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.dsv
+[1.613s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control_demos/share/ament_index/resource_index/packages/gazebo_ros2_control_demos
+[1.613s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/cmake/gazebo_ros2_control_demosConfig.cmake
+[1.613s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/cmake/gazebo_ros2_control_demosConfig-version.cmake
+[1.613s] -- Installing: /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.xml
+[1.616s] Invoked command in '/home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/build/gazebo_ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=/home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control:/home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/install/gazebo_ros2_control_demos:/home/nagase/ROS/ros2_controller_gazebo/glide_robot_ros2_controller/install/gazebo_ros2_control_demos:/home/nagase/ROS/ros2_controller_gazebo/glide_robot_ros2_controller/install/gazebo_ros2_control:/home/nagase/ROS/ros2_controller_gazebo/install/gazebo_ros2_control_demos:/home/nagase/ROS/ros2_controller_gazebo/install/gazebo_ros2_control:/opt/ros/foxy /usr/bin/cmake --install /home/nagase/ROS/ros2_controller_gazebo/glide_robot_without_ros2_contoller/build/gazebo_ros2_control_demos

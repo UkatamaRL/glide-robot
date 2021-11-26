@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro">
+<xacro:include filename="$(find gazebo_ros2_control_demos)/urdf/glide_robot.xacro.urdf"/>
+
+<glide_robot>
+<origin xyz="0 0 0"/>
+</glide_robot>
+</robot>
